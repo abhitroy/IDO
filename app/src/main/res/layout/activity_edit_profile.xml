@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_profile"
+    android:background="#D7CCC8">
+
+
+    <ScrollView
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:id="@+id/scroll">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="650dp"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="First Name"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtfnm"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtfnm"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Last Name"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtlnm"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtlnm"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Phone No."
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtph"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtph"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="E-mail"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtmail"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtmail"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Employment Status"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingTop="3dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/txtcrrst"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtcrrst"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Skills"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtskills"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtskills"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtdes"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtdes"
+            android:paddingLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Catch Line"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:id="@+id/txtcatch"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_design"
+            android:textColor="#232b2b"
+            android:id="@+id/edtcatch"
+            android:paddingLeft="5dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/button_design"
+        android:backgroundTint="#f44336"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        android:text="save"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/button_design"
+        android:backgroundTint="#01dd61"
+        android:textColor="@color/white"/>
+
+
+</android.support.constraint.ConstraintLayout>
