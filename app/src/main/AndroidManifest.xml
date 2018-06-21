@@ -19,7 +19,10 @@
         <activity android:name=".forgot" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".edit_profile" />
+        <activity android:name=".edit_profilex"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_profilex"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/banner"
+        android:orientation="horizontal"
+        android:background="#01dd61"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="600dp"
+            android:text="Personal details"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/banner"
+        android:id="@+id/scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/banner"
+            android:id="@+id/form">
+
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="First Name:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtfnm"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtfnm"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Last Name:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtlnm"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtlnm"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone No.:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtph"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtph"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="E-mail:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtmail"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtmail"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Employment Status:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingTop="3dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/txtcrrst"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtcrrst"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Skills:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtskills"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#232b2b"
+                android:id="@+id/edtskills"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Description:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtdes"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_design"
+                android:textColor="#232b2b"
+                android:id="@+id/edtdes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Catch Line:"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:id="@+id/txtcatch"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_design"
+                android:textColor="#232b2b"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/edtcatch"
+                android:paddingLeft="5dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="45dp"
+                android:text="Cancel"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="#f44336"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="45dp"
+                android:text="save"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="#01dd61"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
